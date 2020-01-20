@@ -11,6 +11,8 @@ install_github("huangweiqing1993/SPACancer")
 
 # Small usage example
 ```r
+library(SPACancer)
+
 # Load the example dataset:
 data(mutation)
 
