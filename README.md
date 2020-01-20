@@ -19,4 +19,7 @@ fit <- ProBMR(m, M, x)
 
 # Get background mutation rates
 bmr <- fit$bkgd2$bmr
+
+# Single gene analysis
+convolution_test(bmr, n)
 ```
